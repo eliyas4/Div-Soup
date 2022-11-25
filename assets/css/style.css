@@ -58,7 +58,7 @@ main::before {
     background-position: center;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -92,7 +92,7 @@ main::before {
     font-size: 36px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
