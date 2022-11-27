@@ -1,13 +1,17 @@
+/* This section of code applies to all elements, the padding and margin for everything will be
+0 unless specified later in the style.css document. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The background colour of the website is set as white*/
 body {
     background-color: #d9dcd6;
 }
 
+/* This styles the header element which will act as a backgrouns for the h1 title and navigation bar. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +28,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The positioning and font for the navigation bar is determined here. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,15 +43,19 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* The nav bar text colour is changed to white. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* The font size for all paragraphs is defined to be 16px.*/
 p {
     font-size: 16px;
 }
 
+/* This pseudo code inserts the background image into the webpage before 
+the main section of the html code. */
 main::before {
     content: " ";
     display: block;
@@ -58,6 +67,7 @@ main::before {
     background-position: center;
 }
 
+/* The positioning and display style of the section eleement is determined here. */
 section {
     width: 75%;
     display: inline-block;
@@ -92,6 +102,7 @@ section {
     font-size: 36px;
 }
 
+/* The positioning, font, and colour for the aside element are specified here. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -103,6 +114,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* This styles the text within the aside element. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
