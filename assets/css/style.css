@@ -11,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* This styles the header element which will act as a backgrouns for the h1 title and navigation bar. */
+/* This styles the header element which will act as a background for the h1 title and navigation bar. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -133,6 +133,7 @@ aside {
     max-width: 150px;
 }
 
+/* This code styles and postions the footer element. */
 footer {
     padding: 30px;
     clear: both;
